@@ -1,0 +1,126 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.hero {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero h1 {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    text-decoration: none;
+    margin-top: 20px;
+    border-radius: 4px;
+}
+
+.album {
+    padding: 80px 0;
+    text-align: center;
+}
+
+.album h2 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #1F2937;
+}
+
+.album-list {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.album-item {
+    width: 30%;
+    padding: 20px;
+    background-color: #E5E7EB;
+    border-radius: 4px;
+}
+
+
+.album-item img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.album-item h3 {
+    font-size: 24px;
+    color: #1F2937;
+}
+
+.album-item p {
+    font-size: 16px;
+    color: #1F2937;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    text-align: center;
+    padding: 40px;
+}
+
+blockquote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    text-align: center;
+    padding: 20px;
+}
+
+.album-cover {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 4px;
+}
